@@ -17,7 +17,7 @@ after_success:
  # log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 
-  - docker push alexandryz/multi-clien
+  - docker push alexandryz/multi-client
   - docker push alexandryz/multi-nginx
   - docker push alexandryz/multi-server
   - docker push alexandryz/multi-worker
